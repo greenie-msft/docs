@@ -1,9 +1,9 @@
----
+<!-- ---
 type: docs
 title: "Define a component"
 linkTitle: "Define a component"
 weight: 40
----
+--- -->
 
 In the [previous step]({{<ref get-started-api.md>}}) you called the Dapr HTTP API to store and retrieve a state from a Redis backed state store. Dapr knew to use the Redis instance that was configured locally on your machine through default component definition files that were created when Dapr was initialized.
 
@@ -92,4 +92,4 @@ You should see output with the secret you stored in the JSON file.
 {"my-secret":"I'm Batman"}
 ```
 
-{{< button text="Next step: Explore Dapr quickstarts >>" page="quickstarts" >}}
+{{< button text="Next step: Explore Dapr quickstarts >>" page="more-quickstarts " >}}
