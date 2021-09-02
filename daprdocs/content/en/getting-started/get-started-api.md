@@ -1,11 +1,15 @@
-<!-- ---
+---
 type: docs
 title: "Use the Dapr API"
 linkTitle: "Use the Dapr API"
 weight: 30
---- -->
+---
 
-After running the `dapr init` command in the [previous step]({{<ref install-dapr-selfhost.md>}}), your local environment has the Dapr sidecar binaries as well as default component definitions for both state management and a message broker (both using Redis). You can now try out some of what Dapr has to offer by using the Dapr CLI to run a Dapr sidecar and try out the state API that will allow you to store and retrieve a state. You can learn more about the state building block and how it works in [these docs]({{< ref state-management >}}).
+{{% alert title="More Dapr Quickstarts" color="primary" %}}
+Already familiar with Dapr and know which capaibility you're interested in? Head over to the quickstarts page and get started.
+{{% /alert %}}
+
+After running the `dapr init` command in the [previous step]({{<ref install-dapr-selfhost.md>}}), your local environment has the Dapr sidecar binaries as well as default component definitions for both state management and a message broker (both using Redis). You can now try some of what Dapr has to offer by using the Dapr CLI to run a Dapr sidecar and try out the state API that will allow you to store and retrieve a state. You can learn more about the state building block and how it works in [these docs]({{< ref state-management >}}).
 
 You will now run the sidecar and call the API directly (simulating what an application would do).
 
@@ -57,7 +61,7 @@ Invoke-RestMethod -Method Post -ContentType 'application/json' -Body '[{ "key": 
 
 ## Step 3: Get state
 
-Now get the object you just stored in the state by using the state management API with the key `name`:
+Now get the state you just stored by using the state management API with the key `name`:
 
 {{< tabs "HTTP API (Bash)" "HTTP API (PowerShell)">}}
 
@@ -114,4 +118,4 @@ Exit the redis-cli with:
 exit
 ```
 
-{{< button text="Next step: Service Invocation Quickstart >>" page="service-invocation-quickstart" >}}
+{{< button text="Next step: Use Dapr's Service Invocation API >>" page="service-invocation-quickstart" >}}

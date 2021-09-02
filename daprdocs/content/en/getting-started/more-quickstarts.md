@@ -17,11 +17,10 @@ The [Dapr Quickstarts](https://github.com/dapr/quickstarts/tree/v1.0.0) are a co
 
 | Quickstart               | Description                                                                                                                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Hello World](https://github.com/dapr/quickstarts/tree/v1.3.0/hello-world)            | Demonstrates how to run Dapr locally. Highlights service invocation and state management.                                                                                                      |
-| [Hello Kubernetes](https://github.com/dapr/quickstarts/tree/v1.3.0/hello-kubernetes)       | Demonstrates how to run Dapr in Kubernetes. Highlights service invocation and state management.                                                                                                |
-| [Distributed Calculator](https://github.com/dapr/quickstarts/tree/v1.3.0/distributed-calculator) | Demonstrates a distributed calculator application that uses Dapr services to power a React web app. Highlights polyglot (multi-language) programming, service invocation and state management. |
-| [Pub/Sub](https://github.com/dapr/quickstarts/tree/v1.3.0/pub-sub)                | Demonstrates how to use Dapr to enable pub-sub applications. Uses Redis as a pub-sub component.                                                                                          |
-| [Bindings](https://github.com/dapr/quickstarts/tree/v1.3.0/bindings)            | Demonstrates how to use Dapr to create input and output bindings to other components. Uses bindings to Kafka.                                                                            |
-| [Middleware](https://github.com/dapr/quickstarts/tree/v1.3.0/middleware) | Demonstrates use of Dapr middleware to enable OAuth 2.0 authorization. |
-| [Observability](https://github.com/dapr/quickstarts/tree/v1.3.0/observability) | Demonstrates Dapr tracing capabilities. Uses Zipkin as a tracing component. |
-| [Secret Store](https://github.com/dapr/quickstarts/tree/v1.3.0/secretstore) | Demonstrates the use of Dapr Secrets API to access secret stores. |
+| [Service Invocation]({{< ref service-invocation-quickstart >}})            | Highlights how to discover and securely invoke methods across services.
+| [State Management](https://github.com/dapr/quickstarts/tree/v1.3.0/hello-kubernetes)       | Highlights how to store data as key/value pairs in supported state stores.
+| [Publish and Subscribe]({{< ref pubsub-quickstart >}}) | Highlights how to send messages to a topic with one service and subscribe to that topic with another service. 
+| [Bindings](https://github.com/dapr/quickstarts/tree/v1.3.0/pub-sub)                | Highlights how to use Dapr bindings to trigger event driven applications and invoke external systems with output bindings.
+| [Observability](https://github.com/dapr/quickstarts/tree/v1.3.0/bindings)            | Highlights how to trace and measure the message calls across components and networked services. 
+| [Secret Management](https://github.com/dapr/quickstarts/tree/v1.3.0/middleware) | Highlights how to securely retrieve a ssecret from a supported secret store.
+| [Actors](https://github.com/dapr/quickstarts/tree/v1.3.0/observability) | Highlights use of Dapr virtual actors to encapsulate code and data in a reusable actor object. 

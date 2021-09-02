@@ -109,4 +109,4 @@ You will see the Dapr config, Dapr binaries directory, and the default component
 
 {{< /tabs >}}
 
-{{< button text="Next step: Use the Service Invocation API>>" page="service-invocation-quickstart" >}}
+{{< button text="Next step: Use the Dapr API>>" page="get-started-api" >}}
