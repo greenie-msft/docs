@@ -18,9 +18,19 @@ The [Dapr Quickstarts](https://github.com/dapr/quickstarts/tree/v1.0.0) are a co
 | Quickstart               | Description                                                                                                                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Service Invocation]({{< ref service-invocation-quickstart >}})            | Highlights how to discover and securely invoke methods across services.
-| [State Management](https://github.com/dapr/quickstarts/tree/v1.3.0/hello-kubernetes)       | Highlights how to store data as key/value pairs in supported state stores.
+| [State Management](#)       | Highlights how to store data as key/value pairs in supported state stores.
 | [Publish and Subscribe]({{< ref pubsub-quickstart >}}) | Highlights how to send messages to a topic with one service and subscribe to that topic with another service. 
-| [Bindings](https://github.com/dapr/quickstarts/tree/v1.3.0/pub-sub)                | Highlights how to use Dapr bindings to trigger event driven applications and invoke external systems with output bindings.
-| [Observability](https://github.com/dapr/quickstarts/tree/v1.3.0/bindings)            | Highlights how to trace and measure the message calls across components and networked services. 
-| [Secret Management](https://github.com/dapr/quickstarts/tree/v1.3.0/middleware) | Highlights how to securely retrieve a ssecret from a supported secret store.
-| [Actors](https://github.com/dapr/quickstarts/tree/v1.3.0/observability) | Highlights use of Dapr virtual actors to encapsulate code and data in a reusable actor object. 
+| [Bindings](#)                | Highlights how to use Dapr bindings to trigger event driven applications and invoke external systems with output bindings.
+| [Observability](#)            | Highlights how to trace and measure the message calls across components and networked services. 
+| [Secret Management](#) | Highlights how to securely retrieve a ssecret from a supported secret store.
+| [Actors](#) | Highlights use of Dapr virtual actors to encapsulate code and data in a reusable actor object. 
+
+## Tutorials
+
+| Tutorials               | Description                                                                                                                                                                                    |
+|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Hello World](#)            | Demonstrates how to run Dapr locally. Highlights service invocation and state management.
+| [Hello World Kubernetes](#)       | Demonstrates how to run Dapr in Kubernetes. Highlights service invocation and state management.
+| [Distributed Calculator]({{< ref pubsub-quickstart >}}) | Demonstrates a distributed calculator application that uses Dapr services to power a React web app. Highlights polyglot (multi-language) programming, service invocation and state management. 
+| [Define a Component ](#)                | Create a component defition file to interact with your application.
+| [Dapr Resiliency](#)            | Create a configuration for popular resilient patterns, such as: timeouts, retries/back offs, and circuit breakers.
