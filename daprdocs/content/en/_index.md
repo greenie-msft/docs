@@ -9,13 +9,15 @@ Welcome to the Dapr documentation site!
 
 
 {{% alert title="What is Dapr?" color="primary" %}}
-Dapr helps developers build event-driven, resilient distributed applications. Whether on-premises, 
-in the cloud, or on an edge device, Dapr helps you tackle the challenges that come with building 
-microservices and keeps your code platform agnostic.
+Dapr is a portable, event-driven runtime that makes it easy for any developer to build resilient, 
+stateless and stateful applications that run on the cloud and edge and embraces the diversity of 
+languages and developer frameworks. Leveraging the benefits of a sidecar architecture, Dapr helps 
+you tackle the challenges that come with building microservices and keeps your code platform agnostic. 
+{{< button text="Get started" page="getting-started" >}}
 {{% /alert %}}
 
 
-### Learn more about Dapr
+### Start developing with Dapr
 
 <div class="card-deck">
   <div class="card">
@@ -27,6 +29,26 @@ microservices and keeps your code platform agnostic.
   </div>
   <div class="card">
     <div class="card-body">
+      <h5 class="card-title"><b>Getting started</b></h5>
+      <p class="card-text">How to get up and running with Dapr in your environment in minutes.</p>
+      <a href="{{< ref getting-started >}}" class="stretched-link"></a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title"><b>Quickstarts</b></h5>
+      <p class="card-text">A collection of tutorials with code samples to get you started quickly with Dapr.</p>
+      <a href="{{< ref concepts >}}" class="stretched-link"></a>
+    </div>
+  </div>
+</div>
+
+
+### Learn more about Dapr
+
+<div class="card-deck">
+  <div class="card">
+    <div class="card-body">
       <h5 class="card-title"><b>Developing applications</b></h5>
       <p class="card-text">Tools, tips, and information on how to build your application with Dapr.</p>
       <a href="{{< ref developing-applications >}}" class="stretched-link"></a>
@@ -34,22 +56,16 @@ microservices and keeps your code platform agnostic.
   </div>
   <div class="card">
     <div class="card-body">
-      <h5 class="card-title"><b>Operations</b></h5>
-      <p class="card-text">Hosting options, best-practices, and other guides and running your application on Dapr.</p>
+      <h5 class="card-title"><b>Building blocks</b></h5>
+      <p class="card-text">Capabilities that solve common development challenges for distributed applications.</p>
       <a href="{{< ref operations >}}" class="stretched-link"></a>
     </div>
   </div>
-</div>
-
-
-### Start developing with Dapr
-
-<div class="card-deck">
   <div class="card">
     <div class="card-body">
-      <h5 class="card-title"><b>Getting started</b></h5>
-      <p class="card-text">How to get up and running with Dapr in your environment in minutes.</p>
-      <a href="{{< ref getting-started >}}" class="stretched-link"></a>
+      <h5 class="card-title"><b>Operations</b></h5>
+      <p class="card-text">Hosting options, best-practices, and other guides and running your application on Dapr.</p>
+      <a href="{{< ref operations >}}" class="stretched-link"></a>
     </div>
   </div>
 </div>
@@ -93,7 +109,7 @@ microservices and keeps your code platform agnostic.
 </div>
 <br>
 <div class="card-deck">
-  <div class="card">
+<div class="card">
     <div class="card-body">
       <h5 class="card-title">
         <img src="/images/homepage/code.svg" alt="Code icon" width=40>
@@ -105,6 +121,9 @@ microservices and keeps your code platform agnostic.
       <a href="{{< ref sdks >}}" class="stretched-link"></a>
     </div>
   </div>
+</div>
+<br>
+<div class="card-deck">
   <div class="card">
     <div class="card-body">
       <h5 class="card-title">
