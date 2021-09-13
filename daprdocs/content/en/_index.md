@@ -58,7 +58,7 @@ you tackle the challenges that come with building microservices and keeps your c
     <div class="card-body">
       <h5 class="card-title"><b>Building blocks</b></h5>
       <p class="card-text">Capabilities that solve common development challenges for distributed applications.</p>
-      <a href="{{< ref operations >}}" class="stretched-link"></a>
+      <a href="{{< ref building-blocks-concept >}}" class="stretched-link"></a>
     </div>
   </div>
   <div class="card">
