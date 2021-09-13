@@ -99,7 +99,7 @@ dapr stop --app-id receiver
 ### Related Links
 * [Python SDK Docs]({{< ref python >}})
 * [Python SDK Repository](https://github.com/dapr/python-sdk)
-* [Service Invocation Overview]({{< ref service-invocation-overview >}}))
+* [Service Invocation Overview]({{< ref service-invocation-overview >}})
 
 {{% /codetab %}}
 
