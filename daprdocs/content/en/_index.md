@@ -31,7 +31,7 @@ you tackle the challenges that come with building microservices and keeps your c
     <div class="card-body">
       <h5 class="card-title"><b>Quickstarts</b></h5>
       <p class="card-text">A collection of tutorials with code samples to get you started quickly with Dapr.</p>
-      <a href="{{< ref concepts >}}" class="stretched-link"></a>
+      <a href="{{< ref more-quickstarts >}}" class="stretched-link"></a>
     </div>
   </div>
   <div class="card">
