@@ -1,7 +1,7 @@
 ---
 type: docs
 title: "Try out Dapr quickstarts to learn core concepts"
-linkTitle: "More Dapr Quickstarts"
+linkTitle: "Dapr Quickstarts"
 weight: 70
 description: "Tutorials with code samples that are aimed to get you started quickly with Dapr"
 ---
