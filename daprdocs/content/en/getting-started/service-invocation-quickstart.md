@@ -1,7 +1,7 @@
 ---
 type: docs
-title: "Service Invocation QuickStart"
-linkTitle: "Service Invocation QuickStart"
+title: "Service Invocation Quickstart"
+linkTitle: "Service Invocation Quickstart"
 weight: 50
 description: "Use Dapr's Service Invocation API to call securely from one service to another service"
 ---
@@ -97,7 +97,9 @@ dapr stop --app-id caller
 dapr stop --app-id receiver
 ```
 ### Related Links
-* [Python SDK Docs]({{<ref python >}})
+* [Python SDK Docs]({{< ref python >}})
+* [Python SDK Repository](https://github.com/dapr/python-sdk)
+* [Service Invocation Overview]({{< ref service-invocation-overview >}}))
 
 {{% /codetab %}}
 

@@ -1,7 +1,7 @@
 ---
 type: docs
-title: "Publish and Subscribe QuickStart"
-linkTitle: "Publish and Subscribe QuickStart"
+title: "Publish and Subscribe Quickstart"
+linkTitle: "Publish and Subscribe Quickstart"
 weight: 60
 description: "Quickstart aimed at helping developers get started with Dapr's Publish and Subscribe building block"
 ---
@@ -101,4 +101,9 @@ dapr stop --app-id invoke-receiver
 
 {{< /tabs >}}
 
-{{< button text="Next step: Publish and Subscribe to messages >>" page="pubsub-quickstart" >}}
+### Related Links
+* [Python SDK Docs]({{< ref python >}})
+* [Python SDK Repository](https://github.com/dapr/python-sdk)
+* [Publish and Subscribe Overview]({{< ref pubsub-overview >}})
+
+{{< button text="Exlore More Quickstarts  >>" page="more-quickstarts" >}}

@@ -6,7 +6,7 @@ weight: 30
 ---
 
 {{% alert title="More Dapr Quickstarts" color="primary" %}}
-Already familiar with Dapr and know which capaibility you're interested in? Head over to the quickstarts page and get started.
+Already familiar with Dapr and know which capaibility you're interested in? Head over to the [quickstarts]({{< ref more-quickstarts >}}) page and get select an example to get started with.
 {{% /alert %}}
 
 After running the `dapr init` command in the [previous step]({{<ref install-dapr-selfhost.md>}}), your local environment has the Dapr sidecar binaries as well as default component definitions for both state management and a message broker (both using Redis). You can now try some of what Dapr has to offer by using the Dapr CLI to run a Dapr sidecar and try out the state API that will allow you to store and retrieve a state. You can learn more about the state building block and how it works in [these docs]({{< ref state-management >}}).
