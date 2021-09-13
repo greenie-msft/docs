@@ -22,13 +22,6 @@ you tackle the challenges that come with building microservices and keeps your c
 <div class="card-deck">
   <div class="card">
     <div class="card-body">
-      <h5 class="card-title"><b>Concepts</b></h5>
-      <p class="card-text">Learn about Dapr, including its main features and capabilities.</p>
-      <a href="{{< ref concepts >}}" class="stretched-link"></a>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-body">
       <h5 class="card-title"><b>Getting started</b></h5>
       <p class="card-text">How to get up and running with Dapr in your environment in minutes.</p>
       <a href="{{< ref getting-started >}}" class="stretched-link"></a>
@@ -38,6 +31,13 @@ you tackle the challenges that come with building microservices and keeps your c
     <div class="card-body">
       <h5 class="card-title"><b>Quickstarts</b></h5>
       <p class="card-text">A collection of tutorials with code samples to get you started quickly with Dapr.</p>
+      <a href="{{< ref concepts >}}" class="stretched-link"></a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title"><b>Concepts</b></h5>
+      <p class="card-text">Learn about Dapr, including its main features and capabilities.</p>
       <a href="{{< ref concepts >}}" class="stretched-link"></a>
     </div>
   </div>
