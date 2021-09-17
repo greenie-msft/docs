@@ -310,8 +310,8 @@ For more information on tracing and logs see the [observability]({{< ref observa
 * [gRPC proxying community call video](https://youtu.be/B_vkXqptpXY?t=70)
 
 ## Community call demo
-Watch this [video](https://www.youtube.com/watch?v=B_vkXqptpXY5) on how to use the Dapr VS Code extension:
+Watch this [video](https://youtu.be/B_vkXqptpXY?t=308) on how to use the Dapr VS Code extension:
 
 <div class="embed-responsive embed-responsive-16by9">
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=B_vkXqptpXY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>y
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B_vkXqptpXY?start=69" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
