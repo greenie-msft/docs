@@ -22,9 +22,10 @@ For more information on what is deployed to your Kubernetes cluster read the [Ku
 
 You can install Dapr on any Kubernetes cluster. Here are some helpful links:
 
+- [Setup KiNd Cluster]({{< ref setup-kind.md >}})
 - [Setup Minikube Cluster]({{< ref setup-minikube.md >}})
 - [Setup Azure Kubernetes Service Cluster]({{< ref setup-aks.md >}})
-- [Setup Google Cloud Kubernetes Engine](https://cloud.google.com/kubernetes-engine/docs/quickstart)
+- [Setup Google Cloud Kubernetes Engine](https://docs.dapr.io/operations/hosting/kubernetes/cluster/setup-gke/)
 - [Setup Amazon Elastic Kubernetes Service](https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html)
 
 {{% alert title="Hybrid clusters" color="primary" %}}
@@ -147,6 +148,9 @@ The latest Dapr helm chart no longer supports Helm v2. Please migrate from Helm 
 ```bash
 helm uninstall dapr --namespace dapr-system
 ```
+
+## Install Dapr on Azure Kubernetes Service (AKS) using the AKS Dapr Extension
+[Follow these instructions to install Dapr on Azure Kubernetes Service (AKS) using the AKS Dapr Extension]({{<ref "setup-aks.md#install-dapr-using-the-aks-dapr-extension" >}})
 
 ### More information
 
